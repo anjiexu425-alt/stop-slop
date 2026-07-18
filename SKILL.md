@@ -1,68 +1,32 @@
 ---
-name: stop-slop
-description: Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.
-metadata:
-  trigger: Writing prose, editing drafts, reviewing content for AI patterns
-  author: Hardik Pandya (https://hvpandya.com)
+name: academic-voice-auditor
+description: Audit postgraduate academic writing for formulaic and generic AI-style patterns while preserving intended meaning, appropriate hedging, disciplinary conventions, and legitimate passive voice. Use when reviewing academic prose in education, TESOL, or the social sciences without acting as an AI detector or inventing content, evidence, or citations.
 ---
 
-# Stop Slop
+# Academic Voice Auditor
 
-Eliminate predictable AI writing patterns from prose.
+Audit academic prose using context-sensitive, rule-based guidance. Preserve the writer's intended meaning and level of certainty.
 
-## Core Rules
+## Core boundaries
 
-1. **Cut filler phrases.** Remove throat-clearing openers, emphasis crutches, and all adverbs. See [references/phrases.md](references/phrases.md).
+- Do not claim to determine whether text was written by a person or AI.
+- Do not promise to reduce AI-detection scores or help evade detection.
+- Do not invent claims, evidence, data, references, citations, or examples.
+- Respect disciplinary and section-specific conventions.
+- Do not automatically treat passive voice, adverbs, hedging, or common academic phrases as errors.
+- Preserve appropriate passive voice, especially where it serves Methodology conventions.
+- Do not convert academic prose into marketing or social-media copy.
 
-2. **Break formulaic structures.** Avoid binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency. See [references/structures.md](references/structures.md).
+## Stage 1 workflow
 
-3. **Use active voice.** Every sentence needs a human subject doing something. No passive constructions. No inanimate objects performing human actions ("the complaint becomes a fix").
+1. Identify the academic section and disciplinary context when they are available.
+2. Consult [do-not-overcorrect principles](references/do_not_overcorrect.md) before suggesting changes.
+3. Treat [generic patterns](references/generic_patterns.md), [academic phrases](references/academic_phrases.md), [academic structures](references/academic_structures.md), and [section-specific rules](references/section_specific_rules.md) as Stage 1 design scaffolds, not a complete validated rule set.
+4. Explain the reason for a flag and leave the final wording decision with the writer.
+5. Avoid unsupported additions and preserve the claim's original strength.
 
-4. **Be specific.** No vague declaratives ("The reasons are structural"). Name the specific thing. No lazy extremes ("every," "always," "never") doing vague work.
+The inherited [phrases](references/phrases.md), [structures](references/structures.md), and [examples](references/examples.md) remain source material for Stage 2 review. Do not apply their absolute rules uncritically in academic contexts.
 
-5. **Put the reader in the room.** No narrator-from-a-distance voice. "You" beats "People." Specifics beat abstractions.
+## Development boundary
 
-6. **Vary rhythm.** Mix sentence lengths. Two items beat three. End paragraphs differently. No em dashes.
-
-7. **Trust readers.** State facts directly. Skip softening, justification, hand-holding.
-
-8. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
-
-## Quick Checks
-
-Before delivering prose:
-
-- Any adverbs? Kill them.
-- Any passive voice? Find the actor, make them the subject.
-- Inanimate thing doing a human verb ("the decision emerges")? Name the person.
-- Sentence starts with a Wh- word? Restructure it.
-- Any "here's what/this/that" throat-clearing? Cut to the point.
-- Any "not X, it's Y" contrasts? State Y directly.
-- Three consecutive sentences match length? Break one.
-- Paragraph ends with punchy one-liner? Vary it.
-- Em-dash anywhere? Remove it.
-- Vague declarative ("The implications are significant")? Name the specific implication.
-- Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
-- Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
-
-## Scoring
-
-Rate 1-10 on each dimension:
-
-| Dimension | Question |
-|-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
-
-Below 35/50: revise.
-
-## Examples
-
-See [references/examples.md](references/examples.md) for before/after transformations.
-
-## License
-
-MIT
+Do not infer or supply the complete Stage 2 rule library. Academic conventions vary across disciplines, and future rule design and evaluation are required.
